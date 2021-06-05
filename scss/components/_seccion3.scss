@@ -1,0 +1,33 @@
+/* seccion 3 sitios web */
+
+
+
+.sitios-container {
+    margin: 40px;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(18, 19, 38);
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sitios-container div a img {
+    border-radius: 20%;
+    width: 200px;
+}
+
+.web {
+    transition: all 0.8s;
+
+}
+.web:hover {
+    transform: translate(20px, 20px);
+    -webkit-transform: translate(20px, 20px);
+ 
+    /* mozilla */
+    -moz-transform: translate(20px, 20px);
+
+    /* opera */
+    -o-transform: translate(20px, 20px);
+}

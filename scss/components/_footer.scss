@@ -1,0 +1,32 @@
+/* footer */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 213, 207);
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+    border-radius: 80%;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.footer-foto {
+    width: 13%;
+    border-radius: 90%;
+    
+}
+
+.redes-icon {
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    top: 40px;
+}

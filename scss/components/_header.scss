@@ -1,0 +1,83 @@
+/* header */
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 213, 207);
+    padding: 10px 0px 10px 0px;
+    width: 35%;
+    border-radius: 80%;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+
+/* menu navbar*/
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;    
+}
+
+header {
+    
+    position: sticky;
+    top: 0;
+    z-index: 2500;
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+    }
+}
+
+
+.home {
+    border: outset;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+    &:active {
+        background-color: rgb(174, 174, 238);
+    }
+}
+
+.activos {
+    border: outset;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    &:active {
+        background-color: rgb(174, 174, 238);
+    }
+}
+
+.contacto {
+    border: outset;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+    &:active {
+        background-color: rgb(174, 174, 238);
+    }
+}
+
+.f-encabezado {
+    width: 200px;
+    border-radius: 80%;
+    padding: 50px;
+    display: flex;
+    justify-content: right; 
+}
+
+/* header */
